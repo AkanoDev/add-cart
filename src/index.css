@@ -131,3 +131,21 @@ figure h1 {
   width: 250px;
   border-radius: 0.8rem;
 }
+
+.container-cart {
+  height: 400px;
+  width: auto;
+  background-color: lightblue;
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+
+.container-cart li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 2.2rem;
+  background-color: lightgreen;
+  padding: 0.5rem 0;
+}

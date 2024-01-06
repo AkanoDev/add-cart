@@ -3,7 +3,6 @@ import Overview from "./templates/Overview";
 import Product from "./templates/Product";
 import { productsdata } from "./data/data";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Cart from "./templates/Cart";
 
 function App() {
   const [products, setProducts] = useState(productsdata);
@@ -12,6 +11,7 @@ function App() {
   function handleSelectedProduct(product) {
     setSelectedProduct(product);
   }
+
   return (
     <div className="app">
       <BrowserRouter>
@@ -29,10 +29,6 @@ function App() {
           <Route
             path="/product"
             element={<Product selectedProducts={selectedProducts} />}
-          />
-          <Route
-            path="/cart"
-            element={<Cart selectedProducts={selectedProducts} />}
           />
         </Routes>
       </BrowserRouter>
