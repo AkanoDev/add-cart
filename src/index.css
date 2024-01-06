@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.app {
+  position: relative;
+}
+
+.overview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+
+  height: 100vh;
+  font-size: 3rem;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.card li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  background-color: #efe5dc;
+  padding: 1.6rem;
+  font-size: 2rem;
+  border-radius: 0.8rem;
+  transition: ease-out 0.6s;
+}
+
+.card h2 {
+  color: #000;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.card li:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 250px;
+  border-radius: 0.8rem;
+}
+
+.product {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+  gap: 2.5rem;
+  color: #000;
+  background-color: #fbfefb;
+  border: 2px solid #efe5dc;
+  border-radius: 1rem;
+}
+
+figure h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sidebar-right {
+  width: 350px;
+  font-size: 2.6rem;
+  padding: 2.5rem;
+  background-color: #fbfefb;
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.buttons button {
+  padding: 1.3rem 1rem;
+  width: 100px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 0.8rem;
+  border: none;
+  outline: none;
+}
+
+.cart {
+  background-color: #efe5dc;
+}
+
+.buy {
+  background-color: #f3d8c7;
+}
+
+.product img {
+  width: 250px;
+  border-radius: 0.8rem;
+}
